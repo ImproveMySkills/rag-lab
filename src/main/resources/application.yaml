@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: rag-lab
+  ai:
+
+    ollama:
+
+      base-url: http://localhost:11434
+
+      chat:
+        options:
+          model: qwen3:8b
+
+      embedding:
+        options:
+          model: nomic-embed-text
+
+rag:
+  chunk-size: 1000
+  chunk-overlap: 200
+  top-k: 5
