@@ -12,7 +12,7 @@ Utiliser une architecture hexagonale.
 
 packages :
 
-com.company.rag
+com.improvemyskills.rag
 
     api
     application
